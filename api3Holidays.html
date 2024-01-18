@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Посилання на інші API  -->
+    <h4><a class="links" href="api2.html">Фото собак</a><a class="links" href="index.html">Логотипи сайтів</a></h4>
+   
+    <h1>Дана API показує календар певної країни</h1>
+    <div class="divFlexCenter">
+        <!-- Форма зв'язку з клієнтом -->
+        <form action="#" name="Fname" class="form1">
+            <label for="fname">Введіть календар якої країни Ви хочете побачити(код країни)</label><br>
+            <input type="text" id="fname"><br>
+            <label for="fname2">Введіть рік</label><br>
+            <input type="number" id="fname2"><br>
+        </form>
+       
+    </div>
+    <!-- Кнопка відправки запиту -->
+    <div class="divFlexCenter"><button class="button" onclick="getСalendar()">Пошук</button></div>
+    
+    <!-- Поле для отримання даних від API -->
+    <div >
+        <table id="apiResponce"></table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

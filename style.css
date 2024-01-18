@@ -1,0 +1,51 @@
+h1{
+text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+th:nth-child(even) {background-color: #e4e4e4;}
+
+table, td, th {
+    border: 1px solid black;
+}
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+th {
+    height: 70px;
+  }
+
+.links{
+    text-decoration: none;
+    padding: 20px 60px;
+    border-radius: 1.5rem;
+    background-color: rgb(176, 176, 176);
+}
+.divFlexCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.form1{
+border: 3px solid black;
+border-radius: 1.5rem;
+padding: 30px;
+width: fit-content;
+background-color: rgb(231, 231, 231);
+font-size: larger;
+}
+
+.button{
+    margin: 20px 0;
+    padding: 20px 60px;
+    border-radius: 1.5rem;
+    background-color: green;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(13, 227, 24);
+}

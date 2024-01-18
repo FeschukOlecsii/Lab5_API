@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Посилання на інші API  -->
+    <h4><a class="links" href="api2.html" >Фото собак</a><a class="links" href="api3Holidays.html" >Календар</a></h4>
+    
+    <h1>Дана API показує логотипи сайтів які вам потрібні</h1>
+    <div class="divFlexCenter">
+        <!-- Форма зв'язку з клієнтом -->
+        <form action="#" name="Fname" class="form1">
+            <label for="fname">Введіть сайт</label><br>
+            <input type="text" id="fname"><br>
+            <label for="fname2">Введіть розміри картинки(макс-256)</label><br>
+            <input type="number" id="fname2" max="256"><br>
+        </form>
+       
+    </div>
+    <!-- Кнопка відправки запиту -->
+    <div class="divFlexCenter"><button class="button" onclick="getAPI()">Пошук</button></div>
+    
+    <!-- Поле для отримання даних від API -->
+    <div id="apiResponce" class="divFlexCenter" ></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
